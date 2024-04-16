@@ -2,7 +2,7 @@ package zJavaTests;
 
 import java.util.Arrays;
 
-public class Methods {
+public class ConditionalStatement {
     /*
  B) Pentru lista de numere data:
     int[] numbers = {10, 8, 9, 11, 13};

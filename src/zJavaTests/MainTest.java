@@ -2,7 +2,7 @@ package zJavaTests;
 
 public class MainTest {
     public static void main(String[] args) {
-        Methods list = new Methods();
+        ConditionalStatement list = new ConditionalStatement();
         //list.listNumbers();
 
         //list.isNumberPositiveOrNegative(35);
