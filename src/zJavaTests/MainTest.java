@@ -3,6 +3,7 @@ package zJavaTests;
 public class MainTest {
     public static void main(String[] args) {
         ConditionalStatement list = new ConditionalStatement();
+        RecursiveMethods show = new RecursiveMethods();
         //list.listNumbers();
 
         //list.isNumberPositiveOrNegative(35);
@@ -28,8 +29,15 @@ public class MainTest {
 //        list.angleTriangleToTen();
 
 //         list.angleTriangleIncremented();
-        list.compareNumbers(1,2,3);
-        list.compareNumbers(111,111,111);
-        list.compareNumbers(1,333,333);
+//        list.compareNumbers(1,2,3);
+//        list.compareNumbers(111,111,111);
+//        list.compareNumbers(1,333,333);
+
+//        int nr =4;
+//        int sum= show.calculateSum(nr);
+//        System.out.println("Sum = " + show.calculateSum(4));
+
+        System.out.println("reverse string =" +show.reverseString("k"));
+        System.out.println("reverse string =" +show.reverseString("hello"));
     }
 }
