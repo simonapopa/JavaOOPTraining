@@ -1,4 +1,4 @@
-package zJavaTests;
+package W3resourcesJavaExercises;
 
 import java.util.Arrays;
 

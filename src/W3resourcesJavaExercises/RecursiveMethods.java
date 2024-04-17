@@ -1,4 +1,4 @@
-package zJavaTests;
+package W3resourcesJavaExercises;
 
 public class RecursiveMethods {
     //    2. Write a Java recursive method to calculate the sum of all numbers from 1 to n.
@@ -12,10 +12,12 @@ public class RecursiveMethods {
     }
 //    6. Write a Java recursive method to reverse a given string.
     public String reverseString(String string){
+        String reverse;
         if(string.isEmpty() || string.length() == 1){
             return string;
         }
-        return reverseString(string.substring(1)) +string.charAt(0);
+        reverse = reverseString(string.substring(1)) +string.charAt(0);
+        return reverse;
     }
 
 

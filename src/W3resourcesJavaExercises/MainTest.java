@@ -1,4 +1,4 @@
-package zJavaTests;
+package W3resourcesJavaExercises;
 
 public class MainTest {
     public static void main(String[] args) {
